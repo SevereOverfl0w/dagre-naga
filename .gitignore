@@ -1,0 +1,5 @@
+/node_modules
+/nashorn_code_cache
+/public/assets/
+/.shadow-cljs
+.cpcache

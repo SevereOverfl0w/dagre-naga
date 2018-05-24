@@ -1,0 +1,7 @@
+{:source-paths ["src"]
+ :deps {org.clojars.quoll/naga {:mvn/version "0.2.5"},
+        org.omcljs/om {:mvn/version "1.0.0-beta3"}
+        brutha {:mvn/version "0.2.1"}
+        thheller/shadow-cljsjs {:mvn/version "0.0.10"}
+
+        cider/cider-nrepl {:mvn/version "0.17.0"}}}
