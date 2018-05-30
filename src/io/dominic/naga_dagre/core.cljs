@@ -44,14 +44,14 @@
                       (.attr inner "transform" (.-transform (.-event d3)))))]
       (.call svg zoom)
       (let [render (new (.-render dagreD3))
-            initialScale 0.75]
+            initialScale 1]
         (render inner g)
-        (.call svg (.-transform zoom) (-> (.-zoomIdentity d3)
-                                          (.translate
-                                            (* (- (.attr svg "width")
-                                                  (.-width (.graph g)))
-                                               (/ initialScale 2))
-                                            20)
-                                          (.scale initialScale)))
+        #_(.call svg (.-transform zoom) (-> (.-zoomIdentity d3)
+                                            (.translate
+                                              (* (- (.attr svg "width")
+                                                    (.-width (.graph g)))
+                                                 (/ initialScale 2))
+                                              20)
+                                            (.scale initialScale)))
 
         (.attr svg "height" (+ (* (.-height (.graph g)) initialScale) 40))))))
