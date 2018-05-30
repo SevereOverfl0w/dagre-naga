@@ -5,4 +5,4 @@
         :devtools {:http-root "public"}
         :output-dir "public/assets/app/js"
         :asset-path "/assets/app/js"
-        :modules {:main {:entries [my.app]}}}}}
+        :modules {:main {:entries [io.dominic.naga-dagre.example]}}}}}

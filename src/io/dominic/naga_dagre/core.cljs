@@ -1,4 +1,4 @@
-(ns my.run
+(ns io.dominic.naga-dagre.core
   (:require
     ["dagre-d3" :as dagreD3]
     ["d3" :as d3]

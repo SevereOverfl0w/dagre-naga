@@ -1,6 +1,6 @@
-(ns my.app
+(ns io.dominic.naga-dagre.example
   (:require
-    [my.run :refer [run-graph!]]
+    [io.dominic.naga-dagre.core :refer [run-graph!]]
     [naga.rules :as r :refer-macros [r]]
     [naga.engine :as e]
     [asami.core :as mem]))
